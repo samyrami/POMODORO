@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+header{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+#app{
+    background: #fff;
+    width: 500px;
+    margin:auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#time{
+    text-align: center;
+    padding: 20px 0;
+}
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+input [type="text"]{
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+}
+button, input[type="submit"]{
+    border: none;
+    background: #003366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task .completed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done{
+    display: inline-block;
+    padding: 5px;
+    background: #ccc;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+}
